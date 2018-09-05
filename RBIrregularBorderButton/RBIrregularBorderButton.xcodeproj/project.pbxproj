@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806005AA213F8A38003C6DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 806005A9213F8A38003C6DCB /* AppDelegate.m */; };
+		806005AD213F8A38003C6DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806005AC213F8A38003C6DCB /* ViewController.m */; };
+		806005B0213F8A38003C6DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806005AE213F8A38003C6DCB /* Main.storyboard */; };
+		806005B2213F8A3A003C6DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806005B1213F8A3A003C6DCB /* Assets.xcassets */; };
+		806005B5213F8A3A003C6DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806005B3213F8A3A003C6DCB /* LaunchScreen.storyboard */; };
+		806005B8213F8A3A003C6DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806005B7213F8A3A003C6DCB /* main.m */; };
+		806005C2213F8A3A003C6DCB /* RBIrregularBorderButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806005C1213F8A3A003C6DCB /* RBIrregularBorderButtonTests.m */; };
+		806005CD213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806005CC213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806005BE213F8A3A003C6DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8060059D213F8A38003C6DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806005A4213F8A38003C6DCB;
+			remoteInfo = RBIrregularBorderButton;
+		};
+		806005C9213F8A3A003C6DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8060059D213F8A38003C6DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806005A4213F8A38003C6DCB;
+			remoteInfo = RBIrregularBorderButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806005A5213F8A38003C6DCB /* RBIrregularBorderButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBIrregularBorderButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		806005A8213F8A38003C6DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		806005A9213F8A38003C6DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		806005AB213F8A38003C6DCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		806005AC213F8A38003C6DCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		806005AF213F8A38003C6DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806005B1213F8A3A003C6DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806005B4213F8A3A003C6DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806005B6213F8A3A003C6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806005B7213F8A3A003C6DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		806005BD213F8A3A003C6DCB /* RBIrregularBorderButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBIrregularBorderButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806005C1213F8A3A003C6DCB /* RBIrregularBorderButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBIrregularBorderButtonTests.m; sourceTree = "<group>"; };
+		806005C3213F8A3A003C6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806005C8213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBIrregularBorderButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		806005CC213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBIrregularBorderButtonUITests.m; sourceTree = "<group>"; };
+		806005CE213F8A3A003C6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806005A2213F8A38003C6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005BA213F8A3A003C6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005C5213F8A3A003C6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8060059C213F8A38003C6DCB = {
+			isa = PBXGroup;
+			children = (
+				806005A7213F8A38003C6DCB /* RBIrregularBorderButton */,
+				806005C0213F8A3A003C6DCB /* RBIrregularBorderButtonTests */,
+				806005CB213F8A3A003C6DCB /* RBIrregularBorderButtonUITests */,
+				806005A6213F8A38003C6DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806005A6213F8A38003C6DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806005A5213F8A38003C6DCB /* RBIrregularBorderButton.app */,
+				806005BD213F8A3A003C6DCB /* RBIrregularBorderButtonTests.xctest */,
+				806005C8213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806005A7213F8A38003C6DCB /* RBIrregularBorderButton */ = {
+			isa = PBXGroup;
+			children = (
+				806005A8213F8A38003C6DCB /* AppDelegate.h */,
+				806005A9213F8A38003C6DCB /* AppDelegate.m */,
+				806005AB213F8A38003C6DCB /* ViewController.h */,
+				806005AC213F8A38003C6DCB /* ViewController.m */,
+				806005AE213F8A38003C6DCB /* Main.storyboard */,
+				806005B1213F8A3A003C6DCB /* Assets.xcassets */,
+				806005B3213F8A3A003C6DCB /* LaunchScreen.storyboard */,
+				806005B6213F8A3A003C6DCB /* Info.plist */,
+				806005B7213F8A3A003C6DCB /* main.m */,
+			);
+			path = RBIrregularBorderButton;
+			sourceTree = "<group>";
+		};
+		806005C0213F8A3A003C6DCB /* RBIrregularBorderButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				806005C1213F8A3A003C6DCB /* RBIrregularBorderButtonTests.m */,
+				806005C3213F8A3A003C6DCB /* Info.plist */,
+			);
+			path = RBIrregularBorderButtonTests;
+			sourceTree = "<group>";
+		};
+		806005CB213F8A3A003C6DCB /* RBIrregularBorderButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806005CC213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.m */,
+				806005CE213F8A3A003C6DCB /* Info.plist */,
+			);
+			path = RBIrregularBorderButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806005A4213F8A38003C6DCB /* RBIrregularBorderButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806005D1213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButton" */;
+			buildPhases = (
+				806005A1213F8A38003C6DCB /* Sources */,
+				806005A2213F8A38003C6DCB /* Frameworks */,
+				806005A3213F8A38003C6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBIrregularBorderButton;
+			productName = RBIrregularBorderButton;
+			productReference = 806005A5213F8A38003C6DCB /* RBIrregularBorderButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806005BC213F8A3A003C6DCB /* RBIrregularBorderButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806005D4213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButtonTests" */;
+			buildPhases = (
+				806005B9213F8A3A003C6DCB /* Sources */,
+				806005BA213F8A3A003C6DCB /* Frameworks */,
+				806005BB213F8A3A003C6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806005BF213F8A3A003C6DCB /* PBXTargetDependency */,
+			);
+			name = RBIrregularBorderButtonTests;
+			productName = RBIrregularBorderButtonTests;
+			productReference = 806005BD213F8A3A003C6DCB /* RBIrregularBorderButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806005C7213F8A3A003C6DCB /* RBIrregularBorderButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806005D7213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButtonUITests" */;
+			buildPhases = (
+				806005C4213F8A3A003C6DCB /* Sources */,
+				806005C5213F8A3A003C6DCB /* Frameworks */,
+				806005C6213F8A3A003C6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806005CA213F8A3A003C6DCB /* PBXTargetDependency */,
+			);
+			name = RBIrregularBorderButtonUITests;
+			productName = RBIrregularBorderButtonUITests;
+			productReference = 806005C8213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8060059D213F8A38003C6DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = QuDian;
+				TargetAttributes = {
+					806005A4213F8A38003C6DCB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					806005BC213F8A3A003C6DCB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 806005A4213F8A38003C6DCB;
+					};
+					806005C7213F8A3A003C6DCB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 806005A4213F8A38003C6DCB;
+					};
+				};
+			};
+			buildConfigurationList = 806005A0213F8A38003C6DCB /* Build configuration list for PBXProject "RBIrregularBorderButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8060059C213F8A38003C6DCB;
+			productRefGroup = 806005A6213F8A38003C6DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806005A4213F8A38003C6DCB /* RBIrregularBorderButton */,
+				806005BC213F8A3A003C6DCB /* RBIrregularBorderButtonTests */,
+				806005C7213F8A3A003C6DCB /* RBIrregularBorderButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806005A3213F8A38003C6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806005B5213F8A3A003C6DCB /* LaunchScreen.storyboard in Resources */,
+				806005B2213F8A3A003C6DCB /* Assets.xcassets in Resources */,
+				806005B0213F8A38003C6DCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005BB213F8A3A003C6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005C6213F8A3A003C6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806005A1213F8A38003C6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806005AD213F8A38003C6DCB /* ViewController.m in Sources */,
+				806005B8213F8A3A003C6DCB /* main.m in Sources */,
+				806005AA213F8A38003C6DCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005B9213F8A3A003C6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806005C2213F8A3A003C6DCB /* RBIrregularBorderButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806005C4213F8A3A003C6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806005CD213F8A3A003C6DCB /* RBIrregularBorderButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806005BF213F8A3A003C6DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806005A4213F8A38003C6DCB /* RBIrregularBorderButton */;
+			targetProxy = 806005BE213F8A3A003C6DCB /* PBXContainerItemProxy */;
+		};
+		806005CA213F8A3A003C6DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806005A4213F8A38003C6DCB /* RBIrregularBorderButton */;
+			targetProxy = 806005C9213F8A3A003C6DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806005AE213F8A38003C6DCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806005AF213F8A38003C6DCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806005B3213F8A3A003C6DCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806005B4213F8A3A003C6DCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806005CF213F8A3A003C6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		806005D0213F8A3A003C6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806005D2213F8A3A003C6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806005D3213F8A3A003C6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		806005D5213F8A3A003C6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RBIrregularBorderButton.app/RBIrregularBorderButton";
+			};
+			name = Debug;
+		};
+		806005D6213F8A3A003C6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RBIrregularBorderButton.app/RBIrregularBorderButton";
+			};
+			name = Release;
+		};
+		806005D8213F8A3A003C6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RBIrregularBorderButton;
+			};
+			name = Debug;
+		};
+		806005D9213F8A3A003C6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPD48D7QH5;
+				INFOPLIST_FILE = RBIrregularBorderButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RB.alertDemo.RBIrregularBorderButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RBIrregularBorderButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806005A0213F8A38003C6DCB /* Build configuration list for PBXProject "RBIrregularBorderButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806005CF213F8A3A003C6DCB /* Debug */,
+				806005D0213F8A3A003C6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806005D1213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806005D2213F8A3A003C6DCB /* Debug */,
+				806005D3213F8A3A003C6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806005D4213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806005D5213F8A3A003C6DCB /* Debug */,
+				806005D6213F8A3A003C6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806005D7213F8A3A003C6DCB /* Build configuration list for PBXNativeTarget "RBIrregularBorderButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806005D8213F8A3A003C6DCB /* Debug */,
+				806005D9213F8A3A003C6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8060059D213F8A38003C6DCB /* Project object */;
+}
